@@ -25,4 +25,10 @@ public class Lider2 extends Lider {
         this.departamento = departamento;
     }
 
+    @Override
+    public String toString() {
+        return "Trabajador: " +
+                "\nnumero de afiliado: " + num_afiliado +
+                "\ndepartamento: " + departamento;
+    }
 }
