@@ -1,10 +1,8 @@
 import java.util.*;
-public class FuncionesColaborador extends Lider2 {
+public class FuncionesColaborador {
 
-    private static ArrayList <Lider2> mistrabajadores = new ArrayList <>();
-    public FuncionesColaborador(String nombre, String apellido, String NIF, int edad, int num_afiliado, String departamento) {
-        super(nombre, apellido, NIF, edad, num_afiliado, departamento);
-    }
+     static ArrayList <Lider2> mistrabajadores = new ArrayList <>();
+
 
 
     public void DardealtaTrabajador(ArrayList <Lider2> lista){
